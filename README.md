@@ -1,6 +1,6 @@
 # RGBD Document Unwarping
 
- This is a project supervised by Prof. Kenneth Wong, where we achived SOTA performace in terms of MS-SSIM (0.512578), and Local Distortion (7.581896)
+ This is a project supervised by Prof. Kenneth Wong, where we achived SOTA performace in terms of MS-SSIM (0.512578), and Local Distortion (7.581896). We tried different Content+3D combinations to do multimodel learning, and find out that RGB+D is the best combination for this task.
 
 ## Contribution and Novelty
  1. We achieved SOTA performance compared with methods with the same pipeline. Specifically, we have improved the SOTA method by 0.32% and 1.93% in terms of MS-SSIM and LD respectively, using only about 1/3 parameters and 79.51% GPU memory.
