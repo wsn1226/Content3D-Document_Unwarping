@@ -1,6 +1,6 @@
 # RGBD Document Unwarping
 
- This is a project supervised by Prof. Kenneth Wong, where we achived SOTA performace in terms of MS-SSIM (0.512578), and Local Distortion (7.581896). We tried different Content+3D combinations to do multimodel learning, and find out that RGB+D is the best combination for this task.
+ This is an undergraduate project at [the University of Hong Kong](https://www.hku.hk/), supervised by [Prof. Kenneth K.Y. Wong](https://i.cs.hku.hk/~kykwong/), where we achived SOTA performace in terms of MS-SSIM (0.512578), and Local Distortion (7.581896). We tried different Content+3D combinations to do multimodel learning, and find out that RGB+D is the best combination for this task.
 
 # Best Model and Result
  You can download our best model [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wsn1226_connect_hku_hk/EnJV042J5vFAuLhhDvWeWQUB4VEvdMTVGPvE9XBLyhSJTQ?e=pmq5Cl) and our result [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wsn1226_connect_hku_hk/Ep3AYQtsnoNAgsFqaCHau9MBhYCvBsBxDAkUFggMDruAAA?e=CkFIEr). We evaluate the result using the same code as DocUNet, our Matlab version is 2022a.
