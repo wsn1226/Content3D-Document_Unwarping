@@ -3,10 +3,9 @@
  This is a project supervised by Prof. Kenneth Wong, where we achived SOTA performace in terms of MS-SSIM (0.512578), and Local Distortion (7.581896)
 
 ## Contribution and Novelty
-
-### We achieved SOTA performance compared with methods with the same pipeline. Specifically, we have improved the SOTA method by 0.32% and 1.93% in terms of MS-SSIM and LD respectively, using only about 1/3 parameters and 79.51% GPU memory.
-### In document dewarping, we are the first to combine RGB and 3D information to do multimodal learning.
-### This is the first trial that lets the model distinguish 3D and RGB information in Document Unwarping.
+ 1. We achieved SOTA performance compared with methods with the same pipeline. Specifically, we have improved the SOTA method by 0.32% and 1.93% in terms of MS-SSIM and LD respectively, using only about 1/3 parameters and 79.51% GPU memory.
+ 2. In document dewarping, we are the first to combine RGB and 3D information to do multimodal learning.
+ 3. This is the first trial that lets the model distinguish 3D and RGB information in Document Unwarping.
 
  
 ## Proposed Pipeline:
