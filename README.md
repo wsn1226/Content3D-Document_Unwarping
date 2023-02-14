@@ -18,7 +18,7 @@
 
 ## Adjoint Loss and Identical Loss
 
-![image](https://user-images.githubusercontent.com/78880538/218639230-1bc21df9-ddcb-431e-ae3b-86dd9795f559.png)
+![image](https://user-images.githubusercontent.com/78880538/218639345-8f75e762-4a66-4439-8eab-fbfcfac70832.png)
 
 
 ## Training Details
