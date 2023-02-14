@@ -39,7 +39,6 @@
  For BM prediction model, we input the ground truth depth and masked image
 2. For ground truth training, we trained the BM model for 81 epochs, with batch size = 200, and learning rate = 0.0001. We reduce the learning rate by half when the validation loss doesn’t decrease for 5 epochs continuously. We don’t use auxiliary loss here because we found the performance will be worse if we use the auxiliary loss here.
 3. After ground truth training, we do joint training for the 3 models, i.e., the latter 2 models take the previous models’ outputs as their inputs. And we minimize all losses together, including the cross-entropy loss for the semantic segmentation, the L1 Loss for the depth prediction, L1 Loss for the BM prediction, and the auxiliary losses.
-![image](https://user-images.githubusercontent.com/78880538/218633908-45b88e47-5ce7-4a07-9729-ca92f8cbab6d.png)
 
 
 
