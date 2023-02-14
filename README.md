@@ -2,6 +2,11 @@
 
  This is a project supervised by Prof. Kenneth Wong, where we achived SOTA performace in terms of MS-SSIM (0.512578), and Local Distortion (7.581896). We tried different Content+3D combinations to do multimodel learning, and find out that RGB+D is the best combination for this task.
 
+# Best Model and Result
+ You can download our best model [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wsn1226_connect_hku_hk/EnJV042J5vFAuLhhDvWeWQUB4VEvdMTVGPvE9XBLyhSJTQ?e=pmq5Cl)
+ You can download our result [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wsn1226_connect_hku_hk/Ep3AYQtsnoNAgsFqaCHau9MBhYCvBsBxDAkUFggMDruAAA?e=CkFIEr)
+ Note that we evaluate the result using the same code as DocUNet, our Matlab version is 2022a
+
 ## Contribution and Novelty
  1. We achieved SOTA performance compared with methods with the same pipeline. Specifically, we have improved the SOTA method by 0.32% and 1.93% in terms of MS-SSIM and LD respectively, using only about 1/3 parameters and 79.51% GPU memory.
  2. In document dewarping, we are the first to combine RGB and 3D information to do multimodal learning.
