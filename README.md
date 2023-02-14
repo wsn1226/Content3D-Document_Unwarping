@@ -40,7 +40,7 @@
 
 ## Ablation Study
 
-![image](https://user-images.githubusercontent.com/78880538/218633402-bd691b10-ee33-4733-ba11-78a9c1947d85.png)
+![image](https://user-images.githubusercontent.com/78880538/218634582-fc4af71e-444d-44c8-9f51-1c823d93ddb5.png)
 
 
 
