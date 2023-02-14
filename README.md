@@ -6,7 +6,7 @@
 Please refer to [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet) for how to start, and please load data correctly. We provide different models, loaders, training and infer scripts for various combination of Content+3D. We also provide our joint training code.
 
 ## Best Model and Result
- You can download our best model [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wsn1226_connect_hku_hk/EnJV042J5vFAuLhhDvWeWQUB4VEvdMTVGPvE9XBLyhSJTQ?e=pmq5Cl) and our result [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wsn1226_connect_hku_hk/Ep3AYQtsnoNAgsFqaCHau9MBhYCvBsBxDAkUFggMDruAAA?e=CkFIEr). We evaluate the result using the same code as [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html), our Matlab version is 2022a.
+ You can download our best model [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wsn1226_connect_hku_hk/EnJV042J5vFAuLhhDvWeWQUB4VEvdMTVGPvE9XBLyhSJTQ?e=pmq5Cl) and our result [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wsn1226_connect_hku_hk/Ep3AYQtsnoNAgsFqaCHau9MBhYCvBsBxDAkUFggMDruAAA?e=CkFIEr). We evaluate the result using the same code as [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html), our Matlab version is 2022a. Note that in the benchmark set, the 64th sample is up side down, please rotate it back before evaluation.
 
 ## Contribution and Novelty
  1. We achieved SOTA performance compared with methods with the same pipeline. Specifically, we have improved the SOTA method by 0.32% and 1.93% in terms of MS-SSIM and LD respectively, using only about 1/3 parameters and 79.51% GPU memory.
