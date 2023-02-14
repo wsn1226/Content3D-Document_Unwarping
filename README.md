@@ -45,5 +45,9 @@
 
 ![image](https://user-images.githubusercontent.com/78880538/218634582-fc4af71e-444d-44c8-9f51-1c823d93ddb5.png)
 
+## Acknowledgment
+
+Our framework is based on [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet).
+
 
 
