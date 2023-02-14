@@ -8,12 +8,18 @@
 ## Contribution and Novelty
  1. We achieved SOTA performance compared with methods with the same pipeline. Specifically, we have improved the SOTA method by 0.32% and 1.93% in terms of MS-SSIM and LD respectively, using only about 1/3 parameters and 79.51% GPU memory.
  2. In document dewarping, we are the first to combine RGB and 3D information to do multimodal learning.
- 3. This is the first trial that lets the model distinguish 3D and RGB information in Document Unwarping.
+ 3. We propose to use Adjoint Loss and Identical Loss so that the model can distinguish 3D and RGB information.
 
  
 ## Proposed Pipeline:
 
 ![image](https://user-images.githubusercontent.com/78880538/218631901-b915634d-bfb8-4956-863c-a5230dec1855.png)
+
+
+## Adjoint Loss and Identical Loss
+
+![image](https://user-images.githubusercontent.com/78880538/218639230-1bc21df9-ddcb-431e-ae3b-86dd9795f559.png)
+
 
 ## Training Details
 ### First train the three models using ground truth labels
